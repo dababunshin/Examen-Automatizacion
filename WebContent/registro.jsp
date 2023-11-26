@@ -8,16 +8,20 @@
 </head>
 <body>
 <div align ="center">
-<h1>AUTOMATIZACION DE PRUEBAS</h1>
-<h2>BANCO PLATINUM</h2>
-<h3>LOGIN</h3>
+<h1>BANCO PLATINUM</h1>
+
+<h1>REGISTRAR</h1>
 <form name="f1" action ="login" onsubmit = "return validation()" method="post">
 <table>
 
-<tr><td>USUARIO: </td><td><input type="text" name="username" id="username"></td></tr>
-<tr><td>CONTRASEÑA: </td><td><input type="password" name="password" id="password"></td></tr>
+<tr><td>NOMBRE: </td><td><input type="text" name="username" id="username"></td></tr>
+<tr><td>APELLIDO: </td><td><input type="text" name="username" id="username"></td></tr>
+<tr><td>DIRECCION: </td><td><input type="text" name="username" id="username"></td></tr>
+<tr><td>CORREO: </td><td><input type="text" name="username" id="username"></td></tr>
+<tr><td>TELEFONO: </td><td><input type="password" name="password" id="password"></td></tr>
+<tr><td>TIPO DE CUENTA: </td><td><input type="password" name="password" id="password"></td></tr>
 
-<tr><td></td><td><input type="submit" value="INICIAR SESION" name="btn" id="btn"></td></tr>
+<tr><td></td><td><input type="submit" value="REGISTRAR" name="btn" id="btn"></td></tr>
 </table>
 
 

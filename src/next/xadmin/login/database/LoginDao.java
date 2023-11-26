@@ -11,7 +11,7 @@ import next.xadmin.login.bean.LoginBean;
 
 public class LoginDao {
 	
-	private String dbUrl = "jdbc:mysql://localhost:3306/eva002";
+	private String dbUrl = "jdbc:mysql://localhost:3306/cuentas_clientes";
 	private String dbUname = "root";
 	private String dbPassword = "";
 	private String dbDriver = "com.mysql.cj.jdbc.Driver";
@@ -45,7 +45,7 @@ public class LoginDao {
 		loadDriver(dbDriver);
 		Connection con = getConnection();
 		
-		String sql = "select * from usuario where username = ? and password =?";
+		String sql = "select * from usuario where nombreUsuario = ? and password =?";
 		PreparedStatement ps;
 		try {
 		ps = con.prepareStatement(sql);
